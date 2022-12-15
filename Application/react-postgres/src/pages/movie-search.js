@@ -31,7 +31,7 @@ const MovieSearch = () => {
         </form>
         <ol>
             {movies.map(movie =>
-                <li>{movie.title}</li>)}
+                <li className=" text-light">{movie.title}</li>)}
         </ol>
     </div>;
 };

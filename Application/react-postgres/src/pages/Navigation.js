@@ -32,7 +32,7 @@ class Navigation extends React.Component {
                         {/*MIDDLE COLUMN */}
                         <div className="col-lg-6">
 
-                            <h1 className=" text-light text-center">Welcome to Groovy Movies!</h1>
+                            <h1 className=" text-light text-center">Welcome to Groovy Movies</h1>
                             <p className="lead text-center text-light">The source for all the best movies</p>
                             <br/>
                             <img src={movies} alt=""/>

@@ -6,6 +6,10 @@ a:hover{
   color: purple;
 }
 
+json{
+  color: white;
+}
+
 body {
   background-image: url("../images/flecks.png"); 
 }

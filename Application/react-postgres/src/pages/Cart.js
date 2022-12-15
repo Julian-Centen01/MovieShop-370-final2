@@ -94,9 +94,9 @@ function Cart() {
 
 
         <Navbar/>
-        <h1> Shopping Cart </h1>
+        <h1 className=" text-light"> Shopping Cart </h1>
 
-        <table>
+        <table className=" text-light">
           <tr>
             <th>Movie</th>
 
@@ -116,7 +116,11 @@ function Cart() {
           <tr>
             <td colSpan="4"> description  </td>
           </tr> */}
-
+        <div>
+            <form class="button" action="/pay" method="post">
+                <input type="submit" value="Checkout" />
+            </form>
+        </div>
         </table>
       </header>
     </div>
