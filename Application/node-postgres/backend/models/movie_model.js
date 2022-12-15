@@ -36,6 +36,10 @@ const friendList = ({id}) => {
         .then(({rows}) => rows);
 }
 
+const setUser = ({username, password, email})  => {
+    return  query("SELECT * FROM users WHERE email = $1", [
+         email]).then(({rows}) => rows);                 
+        }
 
 
 module.exports = {
@@ -45,4 +49,5 @@ module.exports = {
     getUser,
     friendList,
     userExists,
+    setUser,
 }
