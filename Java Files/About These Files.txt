@@ -1,0 +1,10 @@
+There are only two files in this folder that matter
+- The FXML file which had the start of what the GUI was going to look like.
+- The Java Controller file
+
+Now something about the Controller that is important, it no longer points towards the given FXML file. Once I figured out that 
+it was not going to be able to be implemented I started to just use what I had in that project for another class, but the 
+functionality is the same so I included it anyway. 
+I worked very hard on this project and don't want it to not show.
+I also might include the database connection java file that way I can show you it did have that functionality with my 
+personal MySQL.
